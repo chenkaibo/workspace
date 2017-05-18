@@ -1,0 +1,28 @@
+﻿{
+
+  "webserver":{
+                "port":"10001",
+                "kernel":"windows"
+              },
+  "uxdb":{
+            "servername":"127.0.0.1",
+            "port":"5532",
+            "username":"uxdbwebuser",
+            "dbname":"uxdbwebdb"
+         },
+  "product":{
+               "version":"2.0.0.6.04"
+            },
+  "server":{
+    "udpPort":5000,
+    "tcpPort":30600,
+    "totaltimeout":180000,
+    "timeout":30000,
+    "detectionTime":30000,
+    "dfsUpdateTime":10000
+  },
+  "dbmanage":{
+    "clTimeout":600000,
+    "clCheckTime":10000
+  }
+}
